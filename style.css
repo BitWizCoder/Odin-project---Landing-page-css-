@@ -1,0 +1,90 @@
+/* Global Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Navigation */
+.header {
+    background-color: #1f2937;
+    color: aliceblue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+
+}
+
+.btn {
+    width: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cards */
+.card-title {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin: 100px 0;
+}
+
+.card img {
+    width: 250px;
+}
+
+/* Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 600px;
+}
+
+/* CTA */
+.cta {
+    background-color: aquamarine;
+    width: 800px;
+    padding: 15px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 0;
+}
